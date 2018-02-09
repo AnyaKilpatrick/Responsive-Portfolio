@@ -1,0 +1,265 @@
+html {
+    position:relative;
+    min-height: 100%;
+}
+
+
+body {
+    margin: 0;
+    width:100%;
+    height:100%;
+    background: #eeedeb;
+    font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+    margin: 0 0 70px 0;
+    overflow: auto;
+}
+
+
+h1, h2 {
+    font-family:"Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*Styling header*/
+header {
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #cccccc;
+}
+
+#name {
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 325px;
+    padding: 18px 10px;
+    margin-left: 20%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/*Styling navigation block*/
+
+nav {
+    width: 300px;
+    margin-right:19%;
+}
+
+.hoverMenu:hover {
+    background: #4aaaa5;
+    color: #ffff;
+    border-radius: 100px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+#firstLink {
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+#middleLink {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-right: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+}
+#lastLink {
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+
+
+/*Centering Content Area*/
+
+#mainContent {
+    display: block;
+    width: 960px;
+    height: 90%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+
+
+/*Styling Article*/
+
+#articleHeading {
+    width: 90%;
+    margin-left: 30px;
+    border-bottom: 2px solid #dddddd;
+    padding: 10px 0px 25px 0px;
+}
+
+
+article {
+    display: block;
+    width: 650px;
+    background: #ffffff;
+    margin-top: 35px;
+    float: left;
+    border: 2px solid #dddddd;
+    margin-bottom: 100px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#photo {
+    height: 200px;
+    width: 200px;
+    margin: 0px 16px 10px 30px;
+    float: left;
+}
+
+#text {
+    margin: 0px 30px;
+}
+
+/*Styling Sidebar*/
+
+aside {
+    background: #ffffff;
+    display:block;
+    width: 270px;
+    float: right;
+    margin-top: 35px;
+    text-align: center;
+    padding-bottom: 2%;
+    border: 2px solid #dddddd;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+#sidebarLine {
+    width: 90%;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 22px;
+    margin: 20px 13px 20px 13px;
+}
+
+.icon:hover  {
+    border-radius: 100px;
+  }
+
+
+/*Styling sticky footer*/
+
+footer {
+    clear: both;
+    position: absolute;
+    bottom:0%;
+    margin-top:10%;
+    background: #666666;
+    font-size: 14px;
+    color: #dddddd;
+    width: 100%;
+    height:62px;
+    text-align: center;
+    border-top: 8px solid  #4aaaa5;
+    overflow:hidden;
+}
+
+
+
+#copyright {
+    margin-top: 35px;
+}
+
+
+/* Styling Portfolio Page */
+
+.portfolioPic {
+    float: left;
+    width: 265px;
+    height: 200px;
+    margin: 15px 15px 15px 35px;
+}
+
+#portf1 {
+    background-image: url("../images/portf1.jpg");
+
+}
+#portf2 {
+    background-image: url("../images/portf2.jpg");
+}
+#portf3 {
+    background-image: url("../images/portf3.jpg");
+}
+#portf4 {
+    background-image: url("../images/portf4.jpg");
+}
+#portf5 {
+    background-image: url("../images/portf5.jpg");
+}
+
+.portfName {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-size: 22px;
+    background: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 0px 15px 0px;
+    margin-top: 125px;
+}
+
+
+
+/*Styling Contact Form*/
+
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    color: #777777;
+}
+
+#submit {
+    background: #4aaaa5;
+    width: 100px;
+    padding: 10px 5px 10px 5px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    border-radius: 100px;
+}
+
+textarea {
+    width: 100%;
+    height: 170px;
+    resize: vertical;
+    min-height: 40px;
+    max-height: 180px;
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #777777;
+    border: 1px solid #dddddd;
+}
