@@ -461,9 +461,10 @@ textarea {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes chamelion {
     0%   {background-color: #4aaaa5;}
-    25%  {background-color: #8181cc;}
-    50%  {background-color: #4fcab0;}
-    100% {background-color: #70e670;}
+    20%  {background-color: #8181cc;}
+    60%  {background-color: #4fcab0;}
+    80% {background-color: #70e670;}
+    100% {background-color: #4aaaa5;}
 }
 
 /* Standard syntax */
