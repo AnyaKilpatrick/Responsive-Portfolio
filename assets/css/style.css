@@ -11,7 +11,7 @@ body {
     background: #eeedeb;
     font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
     color: #777777;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 70px 0;
     overflow: auto;
 }
@@ -31,7 +31,7 @@ header {
     display: flex;
     background: #ffffff;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 2px solid #cccccc;
 }
 
@@ -41,7 +41,7 @@ header {
     color: #ffffff;
     width: 325px;
     padding: 18px 10px;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -50,7 +50,7 @@ header {
 
 nav {
     width: 300px;
-    margin-right:19%;
+    margin-right:8%;
 }
 
 .hoverMenu:hover {
@@ -118,8 +118,7 @@ article {
 }
 
 #photo {
-    height: 200px;
-    width: 200px;
+    width: 30%;
     margin: 0px 16px 10px 30px;
     float: left;
 }
@@ -263,3 +262,162 @@ textarea {
     color: #777777;
     border: 1px solid #dddddd;
 }
+
+@media screen and (max-width: 980px) {
+    nav {
+        width: 290px;
+    }
+
+    #lastLink {
+        margin-right: 0px;
+    }
+
+    #mainContent {
+        width:90%;
+        margin:0 auto;
+    }
+   
+    header {
+        justify-content: space-between;
+    }
+
+    #articleHeading {
+        margin-left: 5%;
+    }
+
+    article {
+        width: 40vw;;
+        margin-left: 5vw;
+    }
+
+    aside {
+        width: 35vw;
+        margin-right: 5vw;
+    }
+
+    #photo { 
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+ }
+
+ @media screen and (max-width: 768px) {
+
+    #name {
+       margin-left:5%;
+    }
+    nav {
+       margin-right: 5%;
+    }
+
+    #mainContent {
+        width:50vw;
+        justify-content: center;
+        margin-left: 0%;
+        margin-right:0%;
+    }
+
+    article {
+        width: 90vw;
+        float: none;
+        margin-bottom: 5vh;
+    }
+
+    #photo {
+        width: 30%;
+        height: auto;
+
+    }
+
+    aside {
+        float: none;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+    }
+    
+
+ @media screen and (max-width: 648px) {
+    header {
+        display: block;
+    }
+
+    #name {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100vw;
+        margin: 0 auto;
+        height: 30%;
+        text-align: center;
+    }
+
+    #photo {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+   
+    #firstLink {
+        margin-top: 5%;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    #middleLink {
+        margin-top: 5%;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    #lastLink {
+        margin-top: 5%;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+ }
+ @media screen and (max-width: 480px) {
+    header {
+        display: block;
+    }
+
+    #name {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100vw;
+        margin: 0 auto;
+        height: 30%;
+        text-align: center;
+    }
+
+    #photo {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+   
+    #firstLink {
+        margin-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #middleLink {
+        margin-top: 5%;
+        padding-left:5%;
+        padding-right: 5%;
+    }
+    #lastLink {
+        margin-top: 5%;
+        padding-left:5%;
+        padding-right: 5%;
+    }
+ }
