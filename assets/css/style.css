@@ -448,3 +448,29 @@ textarea {
         justify-content: center;
     }
  }
+
+/* ---------Animation-----------*/
+#name {
+    -webkit-animation-name: chamelion; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
+    animation-name: chamelion;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes chamelion {
+    0%   {background-color: #4aaaa5;}
+    25%  {background-color: #8181cc;}
+    50%  {background-color: #4fcab0;}
+    100% {background-color: #70e670;}
+}
+
+/* Standard syntax */
+@keyframes chamelion {
+    0%   {background-color: #4aaaa5;}
+    20%  {background-color: #8181cc;}
+    60%  {background-color: #4fcab0;}
+    80%  {background-color: #70e670;}
+    100% {background-color: #4aaaa5;}
+}
