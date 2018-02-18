@@ -209,6 +209,13 @@ footer {
     position: relative;
     bottom:70px;
 } 
+#portfLink {
+    color: #ffffff;
+}
+.portfName:hover  {
+    font-size: 24px;
+    background: #8181cc;
+  }
 
 
 /*Styling Contact Form*/
